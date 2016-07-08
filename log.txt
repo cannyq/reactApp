@@ -1,0 +1,9 @@
+06/30	Added contentEditable to <td>.  
+07/01	Moved contentEditable to <tr>. Added body background images
+07/02	Added db insert and app POST in server.js
+07/03	Added QInsert with Notification.
+			Accepts pasting of chinese and pinyin combination from Google Translate.
+			Handled timezone in findDocs and DbActions.getList
+07/04 Dressed up buttons with linear gradience and press style
+			Added db put using params
+07/05	Completed QUpdate with Update and GoBack 

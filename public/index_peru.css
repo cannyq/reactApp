@@ -1,0 +1,38 @@
+body { background-image: url('/images/purple-dew.jpg'); background-size: 100%;}
+/*body { background-color: blanchedAlmond; } */
+.active {  color: green;}
+li { font-size: 20px;}
+.Qth { font-size: 24px; background-color: Peru; color: CornSilk;} 
+.QthBut { border-radius: 6px; background-color: BurlyWood; color:#222; 
+  background-image: -webkit-linear-gradient(top, BurlyWood, Peru);
+  border:1px solid #666;
+}
+.QtrBut { border-radius: 3px; background-color: BurlyWood; color:#222; 
+  background-image: -webkit-linear-gradient(top, BurlyWood, Peru);
+  border:1px solid #666;
+}
+.Qtr { font-size: 30px; background-color: CornSilk;}
+.QIDiv * { font-family: Arial; font-size:20px; }
+.QILab { width:82px; display:inline-block; }
+.Update {background-color: CornflowerBlue }
+.chi { color:Black; font-weight: Bold; /*visibility:visible;*/}
+.pin { color:Peru; /*visibility: hidden;*/}
+.eng { color:Black; }
+table, td, th {border: 1px solid lightgray; border-collapse: collapse;}
+
+.DSInp {  
+	font-size:20px; color: Gray; background-color: CornSilk; 
+	width:110px; /*width: 220px;*/ 
+	text-align: Center; 
+	border: None;
+ 	box-shadow: inset 0 0 0 1px White;
+} 
+.DSBut {  
+  font-size:20px; color: CornSilk;  background-color: BurlyWood; 
+  text-shadow: -1px 1px #346392; border:None;
+  background-image: -webkit-linear-gradient(top, BurlyWood, Peru);
+}
+.DSBut:hover { -webkit-box-shadow: inset 0 0 0 1px #27496d,0 2px 2px #193047;}
+.DSBut:active { -webkit-box-shadow: inset 0 0 0 1px #27496d,inset 0 3px 3px #193047;}
+.DSButL { border-radius: 6px 0 0 6px; }
+.DSButR { border-radius: 0 6px 6px 0; }

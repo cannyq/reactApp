@@ -1,0 +1,65 @@
+/*body { background-image: url('/images/purple-dew.jpg'); background-size: 100%;}*/
+body { 
+  /*background-color: blanchedAlmond;*/
+  background-image: url('/images/green.jpg'); 
+  background-size: 100%;
+}
+
+#menu .active {  color: #fff0f0; background-color: #4b0052;}
+#menu { background-color: #2b0022; overflow:hidden; list-style-type:None;}
+#menu li a {color:White; text-decoration: None; padding:8px; display:block;}
+#menu li { float:left; font-family: Calibri; }
+#menu li:hover { background-color:Black; }
+
+.Qth { font-size: 24px; background-color: SlateBlue; color: CornSilk;} 
+.QthBut { border-radius: 6px; background-color: MediumSlateBlue; color:#222; 
+  background-image: -webkit-linear-gradient(top, #b390fb, MediumSlateBlue);
+  border:1px solid #666;
+}
+.Qtr { font-size: 30px; background-color: CornSilk;}
+.QtrBut { 
+  border-radius: 6px; background-color: MediumSlateBlue; color:#222; 
+  background-image: -webkit-linear-gradient(top, #b390fb, MediumSlateBlue);
+  border:1px solid #666;
+}
+
+.QIDiv * { font-family: Arial; font-size:20px; }
+.QILab { width:82px; display:inline-block; }
+.QIBut { 
+  color: PapayaWhip; 
+  background-color: MediumSlateBlue; 
+  border:None;
+  border-radius: 6px; 
+  box-shadow: 0 6px DarkSlateBlue;
+  margin: 5px;
+  padding: 3px 10px;
+ }
+.QIBut:hover { background-color: SlateBlue; }
+.QIBut:active {
+  background-color: SlateBlue; 
+  box-shadow: 0 3px DarkSlateBlue;
+  transform: translateY(5px);
+
+}
+.Update {background-color: CornflowerBlue }
+.chi { color:Black; font-weight: Bold; /*visibility:visible;*/}
+.pin { color:Gray; /*visibility: hidden;*/}
+.eng { color:Black; }
+table, td, th {border: 1px solid lightgray; border-collapse: collapse;}
+
+.DSInp {  
+	font-size:20px; color: Gray; background-color: CornSilk; 
+	width:110px; /*width: 220px;*/ 
+	text-align: Center; 
+	border: None;
+ 	box-shadow: inset 0 0 0 1px White;
+} 
+.DSBut {  
+  font-size:20px; color: CornSilk;  background-color: BurlyWood; 
+  text-shadow: -1px 1px #346392; border:None;
+  background-image: -webkit-linear-gradient(top, #b390fb, MediumSlateBlue);
+}
+.DSBut:hover { -webkit-box-shadow: inset 0 0 0 1px #27496d,0 2px 2px #193047;}
+.DSBut:active { -webkit-box-shadow: inset 0 0 0 1px #27496d,inset 0 3px 3px #193047;}
+.DSButL { border-radius: 6px 0 0 6px; }
+.DSButR { border-radius: 0 6px 6px 0; }
