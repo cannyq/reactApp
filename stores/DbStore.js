@@ -1,4 +1,4 @@
-var DbBiff = require('../db_biff');
+var DbBiff = require('../client/db_biff');
 var ActNames = require('../actions/ActionNames');
 
 var DbStore = DbBiff.createStore({
@@ -30,7 +30,8 @@ var DbStore = DbBiff.createStore({
 				DbStore.emitChange();
 			}
 		}
-		rest.open('GET', '/db?date='+payload.dateStr);
+		var dsd = payload.data;
+		rest.open('GET', '/db?date='+dsd.dateStr+'&days='+dsd.days);
 		rest.send();
 
 	} else if (payload.actionType === ActNames.INSERT) {
@@ -63,8 +64,6 @@ var DbStore = DbBiff.createStore({
 		var jsonStr = JSON.stringify( payload.data); // Need this
 		rest.send( jsonStr );  
 		console.log( jsonStr);
-
-
 	}
 });
 module.exports = DbStore;

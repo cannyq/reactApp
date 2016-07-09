@@ -1,0 +1,61 @@
+{"_id":{"$oid":"5776fb8e3579b4602cef26b2"},"chi":"大概","pin":"Dàgài","eng":"roughly, probably","date":{"$date":"2016-06-27T19:00:00.000Z"}}
+{"_id":{"$oid":"5776fb8e3579b4602cef26b3"},"chi":"开始","pin":"Kāishǐ","eng":"begin","date":{"$date":"2016-06-27T19:00:00.000Z"}}
+{"_id":{"$oid":"5776fb8e3579b4602cef26b4"},"chi":"跳舞","pin":"Tiàowǔ","eng":"dance","date":{"$date":"2016-06-27T19:00:00.000Z"}}
+{"_id":{"$oid":"5776fb8e3579b4602cef26b5"},"chi":"甜品","pin":"Tiánpǐn","eng":"dessert","date":{"$date":"2016-06-27T19:00:00.000Z"}}
+{"_id":{"$oid":"5776fb8e3579b4602cef26b6"},"chi":"月亮","pin":"Yuèliàng","eng":"moon","date":{"$date":"2016-06-27T19:00:00.000Z"}}
+{"_id":{"$oid":"5776fb8e3579b4602cef26b7"},"chi":"手机","pin":"Shǒujī","eng":"cell phone","date":{"$date":"2016-06-28T19:00:00.000Z"}}
+{"_id":{"$oid":"5776fb8e3579b4602cef26b8"},"chi":"飞机","pin":"Fēijī","eng":"airplane","date":{"$date":"2016-06-28T19:00:00.000Z"}}
+{"_id":{"$oid":"5776fb8e3579b4602cef26b9"},"chi":"冷气机","pin":"Lěngqì jī","eng":"AC","date":{"$date":"2016-06-28T19:00:00.000Z"}}
+{"_id":{"$oid":"5776fb8e3579b4602cef26ba"},"chi":"暖气机","pin":"Nuǎnqì jī","eng":"heater","date":{"$date":"2016-06-28T19:00:00.000Z"}}
+{"_id":{"$oid":"5776fb8e3579b4602cef26bb"},"chi":"洗衣机","pin":"Xǐyījī","eng":"washing machine","date":{"$date":"2016-06-28T19:00:00.000Z"}}
+{"_id":{"$oid":"5776fb8e3579b4602cef26bc"},"chi":"微笑","pin":"Wéixiào","eng":"smile","date":{"$date":"2016-06-28T19:00:00.000Z"}}
+{"_id":{"$oid":"5776fb8e3579b4602cef26bd"},"chi":"回答","pin":"Huídá","eng":"answer, reply","date":{"$date":"2016-06-28T19:00:00.000Z"}}
+{"_id":{"$oid":"5776fb8e3579b4602cef26be"},"chi":"多久","pin":"Duōjiǔ","eng":"how long","date":{"$date":"2016-06-29T19:00:00.000Z"}}
+{"_id":{"$oid":"5776fb8e3579b4602cef26bf"},"chi":"小时","pin":"Xiǎoshí","eng":"hour","date":{"$date":"2016-06-29T19:00:00.000Z"}}
+{"_id":{"$oid":"5776fb8e3579b4602cef26c0"},"chi":"时间","pin":"Shíjiān","eng":"time","date":{"$date":"2016-06-29T19:00:00.000Z"}}
+{"_id":{"$oid":"5776fb8e3579b4602cef26c1"},"chi":"什么时候","pin":"Shénme shíhòu","eng":"when","date":{"$date":"2016-06-29T19:00:00.000Z"}}
+{"_id":{"$oid":"5776fb8e3579b4602cef26c2"},"chi":"懂","pin":"Dǒng","eng":"understand","date":{"$date":"2016-06-29T19:00:00.000Z"}}
+{"_id":{"$oid":"5776fb8e3579b4602cef26c3"},"chi":"重","pin":"Zhòng","eng":"heavy","date":{"$date":"2016-06-29T19:00:00.000Z"}}
+{"_id":{"$oid":"5776fb8e3579b4602cef26c4"},"chi":"最","pin":"Zuì","eng":"most","date":{"$date":"2016-06-29T19:00:00.000Z"}}
+{"_id":{"$oid":"5776fb8e3579b4602cef26c5"},"chi":"戏院","pin":"Xíyuàn","eng":"theater","date":{"$date":"2016-06-29T19:00:00.000Z"}}
+{"_id":{"$oid":"5776fb8e3579b4602cef26c6"},"chi":"稍后","pin":"Shāo hòu","eng":"later","date":{"$date":"2016-07-01T19:00:00.000Z"}}
+{"_id":{"$oid":"5776fb8e3579b4602cef26c7"},"chi":"所以","pin":"Suǒyǐ","eng":"therefore/so","date":{"$date":"2016-07-01T19:00:00.000Z"}}
+{"_id":{"$oid":"5776fb8e3579b4602cef26c8"},"chi":"一所大学","pin":"Yī suǒ dàxué","eng":"a university","date":{"$date":"2016-07-01T19:00:00.000Z"}}
+{"_id":{"$oid":"5776fb8e3579b4602cef26c9"},"chi":"学习","pin":"xuéxí","eng":"study","date":{"$date":"2016-07-01T19:00:00.000Z"}}
+{"_id":{"$oid":"5776fb8e3579b4602cef26ca"},"chi":"做","pin":"Zuò","eng":"do","date":{"$date":"2016-07-01T19:00:00.000Z"}}
+{"_id":{"$oid":"5776fb8e3579b4602cef26cb"},"chi":"运动","pin":"Yùndòng","eng":"exercise,movement","date":{"$date":"2016-07-01T19:00:00.000Z"}}
+{"_id":{"$oid":"5776fb8e3579b4602cef26cc"},"chi":"干","pin":"Gàn","eng":"do (negative)","date":{"$date":"2016-07-01T19:00:00.000Z"}}
+{"_id":{"$oid":"5776fb8e3579b4602cef26cd"},"chi":"说","pin":"Shuō","eng":"say,talk","date":{"$date":"2016-07-01T19:00:00.000Z"}}
+{"_id":{"$oid":"5776fb8e3579b4602cef26ce"},"chi":"讲","pin":"Jiǎng","eng":"tell,say,speak","date":{"$date":"2016-07-01T19:00:00.000Z"}}
+{"_id":{"$oid":"5779f678ccdfaef423fb7af7"},"chi":"地方","pin":"Dìfāng","eng":"place","date":{"$date":"2016-07-04T05:39:04.708Z"}}
+{"_id":{"$oid":"5779f6c8ccdfaef423fb7af8"},"chi":"每天","pin":"Měitiān","eng":"everyday","date":{"$date":"2016-07-04T05:40:24.031Z"}}
+{"_id":{"$oid":"5779f772ccdfaef423fb7af9"},"chi":"表妹","pin":"Biǎomèi","eng":"younger female cousin","date":{"$date":"2016-07-04T05:43:14.579Z"}}
+{"_id":{"$oid":"5779f7a6ccdfaef423fb7afa"},"chi":"表姐","pin":"Biǎojiě","eng":"older female cousin","date":{"$date":"2016-07-04T05:44:06.293Z"}}
+{"_id":{"$oid":"5779f7fcccdfaef423fb7afb"},"chi":"表哥","pin":"Biǎo gē","eng":"older male cousin","date":{"$date":"2016-07-04T05:45:32.133Z"}}
+{"_id":{"$oid":"5779f81eccdfaef423fb7afc"},"chi":"表弟","pin":"Biǎo dì","eng":"younger male cousin","date":{"$date":"2016-07-04T05:46:06.358Z"}}
+{"_id":{"$oid":"5779f8d9ccdfaef423fb7afd"},"chi":"蛋糕","pin":"Dàngāo","eng":"cake","date":{"$date":"2016-07-04T05:49:13.663Z"}}
+{"_id":{"$oid":"577b19ff568f55701aeb84d9"},"chi":"国庆日","pin":"Guóqìng rì","eng":"Independence Day","date":{"$date":"2016-07-05T02:22:55.416Z"}}
+{"_id":{"$oid":"577b1a23568f55701aeb84da"},"chi":"烟花","pin":"Yānhuā","eng":"fireworks","date":{"$date":"2016-07-05T02:23:31.390Z"}}
+{"_id":{"$oid":"577b4f652a2ee0100be59fb2"},"chi":"庆祝","pin":"Qìngzhù","eng":"celebrate","date":{"$date":"2016-07-05T06:10:44.996Z"}}
+{"_id":{"$oid":"577c8e4f9249922c1c84fb38"},"chi":"比较","pin":"Bǐjiào","eng":"compare, relatively","date":{"$date":"2016-07-06T04:51:27.484Z"}}
+{"_id":{"$oid":"577c8f419249922c1c84fb39"},"chi":"以为","pin":"Yǐwéi","eng":"thought (neg. outcome), under the impression","date":{"$date":"2016-07-06T04:55:29.983Z"}}
+{"_id":{"$oid":"577c93869249922c1c84fb3a"},"chi":"医院","pin":"Yīyuàn","eng":"hospital","date":{"$date":"2016-07-06T05:13:42.249Z"}}
+{"_id":{"$oid":"577c946f9249922c1c84fb3b"},"chi":"同学","pin":"Tóngxué","eng":"classmate","date":{"$date":"2016-07-06T05:17:35.746Z"}}
+{"_id":{"$oid":"577c96389249922c1c84fb3c"},"chi":"男性","pin":"NánXìng","eng":"male","date":{"$date":"2016-07-06T05:25:12.334Z"}}
+{"_id":{"$oid":"577d3e709249922c1c84fb3d"},"chi":"牵手","pin":"Qiānshǒu","eng":"hold hands","date":{"$date":"2016-07-06T17:22:56.782Z"}}
+{"_id":{"$oid":"577f0ebd20a896ac11858706"},"chi":"热狗","pin":"Règǒu","eng":"hot dog","date":{"$date":"2016-07-08T02:23:57.187Z"}}
+{"_id":{"$oid":"577f0ef820a896ac11858707"},"chi":"木瓜","pin":"Mùguā","eng":"papaya","date":{"$date":"2016-07-08T02:24:56.653Z"}}
+{"_id":{"$oid":"577f0f1820a896ac11858708"},"chi":"蘑菇","pin":"Mógū","eng":"mushroom","date":{"$date":"2016-07-08T02:25:28.428Z"}}
+{"_id":{"$oid":"577f0f3620a896ac11858709"},"chi":"菠萝","pin":"Bōluó","eng":"pineapple","date":{"$date":"2016-07-08T02:25:58.224Z"}}
+{"_id":{"$oid":"577f0f6d20a896ac1185870b"},"chi":"辣椒","pin":"Làjiāo","eng":"chili pepper","date":{"$date":"2016-07-08T02:26:53.927Z"}}
+{"_id":{"$oid":"577f11ec20a896ac1185870c"},"chi":"长","pin":"Cháng","eng":"long","date":{"$date":"2016-07-08T02:37:32.338Z"}}
+{"_id":{"$oid":"577f11fa20a896ac1185870d"},"chi":"短","pin":"Duǎn","eng":"short","date":{"$date":"2016-07-08T02:37:46.128Z"}}
+{"_id":{"$oid":"57805e09da0f3ae4191be507"},"chi":"忙","pin":"Máng","eng":"busy","date":{"$date":"2016-07-09T02:14:33.773Z"}}
+{"_id":{"$oid":"57805e54da0f3ae4191be508"},"chi":"美丽","pin":"Měil","eng":"beautiful","date":{"$date":"2016-07-09T02:15:48.690Z"}}
+{"_id":{"$oid":"57805e70da0f3ae4191be509"},"chi":"猫","pin":"Māo","eng":"cat","date":{"$date":"2016-07-09T02:16:16.931Z"}}
+{"_id":{"$oid":"578082d46a9259902053d8c7"},"chi":"帮","pin":"Bāng","eng":"help","date":{"$date":"2016-07-09T04:51:32.202Z"}}
+{"_id":{"$oid":"57815bef5e9a76e4164dc576"},"chi":"从","pin":"Cóng","eng":"from","date":{"$date":"2016-07-09T20:17:51.339Z"}}
+{"_id":{"$oid":"57815cd55e9a76e4164dc577"},"chi":"草","pin":"Cǎo","eng":"grass","date":{"$date":"2016-07-09T20:21:41.139Z"}}
+{"_id":{"$oid":"57815cee5e9a76e4164dc578"},"chi":"草莓","pin":"Cǎoméi","eng":"strawberry","date":{"$date":"2016-07-09T20:22:06.785Z"}}
+{"_id":{"$oid":"57815d025e9a76e4164dc579"},"chi":"蓝莓","pin":"Lánméi","eng":"blueberry","date":{"$date":"2016-07-09T20:22:26.155Z"}}
+{"_id":{"$oid":"57815d3c5e9a76e4164dc57a"},"chi":"黑莓","pin":"Hēiméi","eng":"blackberry","date":{"$date":"2016-07-09T20:23:24.490Z"}}

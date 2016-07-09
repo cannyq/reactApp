@@ -42,5 +42,3 @@
 男; Nán; male; 男人
 高兴; Gāoxìng; glad
 
-7/3
-帮; Bāng; help

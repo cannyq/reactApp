@@ -16,7 +16,8 @@ var Db = require('./db/db')
 app.get('/db', function( req, res) {
   console.log('Get: '+req.originalUrl);
   var timezone = (new Date()).getTimezoneOffset()/60;
-  Db.find( req.query.date, timezone, function( docs) {
+  var days = parseInt(req.query.days);
+  Db.find( req.query.date, timezone, days, function( docs) {
     res.send( docs);
     var arr = docs.map( item=>item.eng);
     console.log( 'Sent: '+arr);

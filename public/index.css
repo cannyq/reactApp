@@ -47,13 +47,14 @@ body {
 .eng { color:Black; }
 table, td, th {border: 1px solid lightgray; border-collapse: collapse;}
 
-.DSInp {  
+.DSInp, #days {  
 	font-size:20px; color: Gray; background-color: CornSilk; 
 	width:110px; /*width: 220px;*/ 
 	text-align: Center; 
 	border: None;
  	box-shadow: inset 0 0 0 1px White;
 } 
+#days { width:50px; }
 .DSBut {  
   font-size:20px; color: CornSilk;  background-color: BurlyWood; 
   text-shadow: -1px 1px #346392; border:None;
@@ -63,3 +64,5 @@ table, td, th {border: 1px solid lightgray; border-collapse: collapse;}
 .DSBut:active { -webkit-box-shadow: inset 0 0 0 1px #27496d,inset 0 3px 3px #193047;}
 .DSButL { border-radius: 6px 0 0 6px; }
 .DSButR { border-radius: 0 6px 6px 0; }
+.DSLab {  font-size:20px; text-align: Right; display: inline-block; width:80px; margin-right:6px;} 
+.QTextarea {font-size:24px;}

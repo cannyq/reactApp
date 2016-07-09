@@ -4,20 +4,16 @@ var DbStore = require('../stores/DbStore')
 var DateSlider = require('./DateSlider.jsx')
 var QTableHead = require('./QTableHead.jsx')
 var QTableRow = require('./QTableRow.jsx')
+var globals = require('../client/globals.js')
 
 module.exports = React.createClass({
 	mixins: [DbStore.mixin],
 	getInitialState: function() {
-		var dateStr = null; //this.props.location.query;
-		var loc = this.props.location
-		if (loc) { dateStr = loc.query.date	}
-		if (!dateStr) {
-			dateStr = (new Date()).toLocaleDateString() // mm/dd/yyyy
-		}
-		return { dateStr: dateStr, list: DbStore.getList(), colNames:['Hide','Hide','Hide']}
+		//return { list: DbStore.getList(), colNames:['Hide','Hide','Hide']}
+		return { list: [], colNames:['Hide','Hide','Hide']}
 	},
 	componentDidMount: function() {
-		DbActions.getList( this.state.dateStr);
+		DbActions.getList( {dateStr: this.props.dateStr, days: this.props.days})
 	},
 	OnColChange: function(stat) {
 		this.setState( {colNames: stat})
@@ -29,7 +25,7 @@ module.exports = React.createClass({
 	render: function() {
 		return (
 			<div>
-				<DateSlider date={this.state.dateStr}/><br/>
+				{/*<DateSlider date={this.state.dateStr}/><br/>*/}
 				<table className='Qt'>
 				  <QTableHead colNames={this.state.colNames} On_change={this.OnColChange}/>
 					<tbody> 

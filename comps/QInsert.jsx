@@ -45,6 +45,7 @@ module.exports = React.createClass( {
 		var resp = DbStore.getResp()
 		if (resp.error=='None') {
 			this.toast( "Record inserted", 'Success', 'success')
+			this.setState( {flashObj: DbStore.getInitFlashObj()})
 		} else {
 			this.toast( resp.error, 'Error', 'error')
 		}

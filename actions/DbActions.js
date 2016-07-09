@@ -1,14 +1,20 @@
-var DbBiff = require('../db_biff')
+var DbBiff = require('../client/db_biff')
 var ActNames = require('./ActionNames')
-//var React = require('react')
+var globals = require('../client/globals.js')
 
 var DbActions = DbBiff.createActions({
  	//contextTypes: { router: React.PropTypes.object },	
- 	getList: function(dateStr) {
-		//console.log( "Dispatch "+ ActNames.GET_LIST);
+ 	getList: function(data) {
+		// Save the last access day so QTable will continue to display 
+		//data of the date when the user navigate to somewhere else.
+		console.log(JSON.stringify(globals))
+		if (data.dateStr != '*') {
+			globals.lastAccDate = data.dateStr;
+			globals.days = data.days;
+		}
 		this.dispatch({
 			actionType: ActNames.GET_LIST,
-			dateStr: dateStr,
+			data: data
 		});
 		//console.log('dateStr='+dateStr+', timezone='+timezone);
 	},
