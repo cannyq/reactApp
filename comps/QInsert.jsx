@@ -1,4 +1,5 @@
-			// 7/3/2016 Accepts pasting of chinese and pinyin combination from Google Translate
+// 7/3/2016 Accepts pasting of chinese and pinyin combination from Google Translate
+// CJK Unified Ideographs: 4E00-9FFF
 import React from 'react'
 import DbStore from '../stores/DbStore'
 import DbActions from '../actions/DbActions'

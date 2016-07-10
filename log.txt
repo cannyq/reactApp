@@ -8,9 +8,11 @@
 			Added db put using params
 07/05	Completed QUpdate with Update and GoBack
 			Converted to menu bar.
-			"First Commit"
+			"First commit"
 07/09 Removed DateSlider from QTable.  Added days to DateSlider.  
 			Created VocabTable from DateSlider and QTable.
 			Added QTextarea.  Added 'days' filter to Db.
 			Converted _id to cjk code.
-			"Second Commit"
+			"Second commit"
+			Added GraphQL in serverGql.js
+			"Third commit"

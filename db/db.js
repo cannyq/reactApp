@@ -32,6 +32,24 @@ module.exports = {
 			});
 		});
 	},
+	findGql: function(query, callback) {
+		MongoClient.connect(url, function(err, db) {
+			assert.equal(null, err);
+			var cursor = db.collection( CHI).find(query);
+			var gqlObj={};
+			cursor.each( function(err,doc) {
+				assert.equal(err,null);
+				if (doc==null) {
+					callback(gqlObj);
+					db.close();
+				} else {
+					//console.log(doc._id);
+					gqlObj[doc._id] = doc;
+					//Object.assign( gqlObj, { doc._id: doc});
+				}
+			});
+		});
+	},
 	insert: function(obj, callback) {
 		MongoClient.connect(url, function(err, db) {
 			if (err == null) {
