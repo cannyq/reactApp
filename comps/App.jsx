@@ -2,6 +2,7 @@ import React from 'react'
 import { Router, Route, IndexRoute, IndexLink, browserHistory } from 'react-router'
 import { render } from 'react-dom'
 import NavLink from './NavLink.jsx'
+import QSelect from './QSelect.jsx'
 
 var App = React.createClass({
   render() {
@@ -13,6 +14,7 @@ var App = React.createClass({
           <li><NavLink to="/repos">Repos</NavLink></li> */}
           <li><NavLink to="/vocab">Vocabulary</NavLink></li>
           <li><NavLink to="/insert">Insert</NavLink></li>
+          <li><QSelect/></li>
         </ul>
         {this.props.children}
       </div>

@@ -6,7 +6,7 @@ var DbStore = DbBiff.createStore({
 	_resp: {},
 	getList: function() { return this._list },
 	getResp: function() { return this._resp },
-	getInitFlashObj: function() { return {chi:'',pin:'',eng:''} },
+	getInitFlashObj: function() { return {chi:'',tra:'',pin:'',eng:''} },
 	getRec: function(id) { return this._list.find( x=>x._id==id) },
 	checkBlank: function(obj) {
 		var err=null;
@@ -32,6 +32,22 @@ var DbStore = DbBiff.createStore({
 		}
 		var dsd = payload.data;
 		rest.open('GET', '/db?date='+dsd.dateStr+'&days='+dsd.days);
+		rest.send();
+
+	} else if (payload.actionType === ActNames.GRAPHQL) {
+		var rest = new XMLHttpRequest();
+		window.self = this; // Need to precede self with window for IE
+		rest.onreadystatechange = function() {
+			if (rest.readyState==4 && rest.status==200) {
+				var obj = JSON.parse(rest.responseText);
+				//window.self._list = obj.data.list;
+				window.self._list = obj.data.user;
+				DbStore.emitChange();
+			}
+		}
+		var uri = '/graphql?query='+payload.data;
+		rest.open('GET', uri);
+		console.log( 'Sent: '+uri);
 		rest.send();
 
 	} else if (payload.actionType === ActNames.INSERT) {

@@ -12,8 +12,9 @@ module.exports = React.createClass( {
 	render: function() {
 		return (<tr className='Qtr'>
 			<td className={'chi'}>{this.show(0, this.props.doc.chi)} </td>
-			<td className={'pin'}>{this.show(1, this.props.doc.pin)} </td>
-			<td className={'eng'}>{this.show(2, this.props.doc.eng)} </td>
+			<td className={'tra'}>{this.show(1, this.props.doc.tra)} </td>
+			<td className={'pin'}>{this.show(2, this.props.doc.pin)} </td>
+			<td className={'eng'}>{this.show(3, this.props.doc.eng)} </td>
 			<td><button className='QtrBut' onClick={this.updateClick}>Update</button> </td>
 		</tr>)
 	}

@@ -1,41 +1,62 @@
 var MongoClient = require('mongodb').MongoClient;
 var assert = require('assert');
 var ObjectId = require('mongodb').ObjectID;
-var url = 'mongodb://localhost:27017/test';
-const CHI = 'chinese';
+const URL = 'mongodb://localhost:27017/test';
+const COLL = 'chi';
 
-function findDocs(db, collection, dateStr, tz, days, callback) {
-	var query;
-	if (dateStr=='*') {
-		query = {};
+function genId(chi) {
+	//console.log(chi);
+	var len = chi.length;
+	var str='';
+	for (var i=0; i<len; ++i) {
+		str += chi.charCodeAt(i).toString(16);
+	}
+	return str;
+}
+
+function findDocs(db, collection, user, dateStr, callback) {
+	let qUser = {user:user};
+	let query;
+	if (dateStr==undefined) {
+		query = qUser;
 	} else {
-		var date0 = new Date(dateStr); 
-		var date1 = new Date(dateStr);
-		date1.setDate(date1.getDate()+days);
+		let date0 = new Date(dateStr); // T=07:00:00.000Z
+		let date1 = new Date(dateStr); 
+		date1.setDate(date1.getDate()+1);
+
+		// mongodb stores in ISO Date Time which add timezone to current time.
+	  var tz = (new Date()).getTimezoneOffset()/60;
 		date0.setHours(date0.getHours()+tz);
 		date1.setHours(date1.getHours()+tz);
-		query = {$and: [{date: {$gt: date0}}, {date: {$lt:date1}}] } 
+
+		let qDate0 = {date: {$gt: date0}};
+		let qDate1 = {date: {$lt: date1}};
+		query = {$and: [qUser, qDate0, qDate1] } 
   }
+  console.log('findDocs: q='+JSON.stringify(query));
 	var cursor = db.collection( collection).find(query);
 	cursor.toArray( function(err,docs) {
 		assert.equal(err,null);
-		callback(docs)
+		callback(docs);
 	});
 }
 module.exports = {
-	find: function(dateStr, tz, days, callback, offset, limit) {
-		MongoClient.connect(url, function(err, db) {
+	find: function(user, dateStr, callback) {
+		// user/:id?date='01-01-2016'
+		// user/:id/:wordNum
+		MongoClient.connect(URL, function(err, db) {
 			assert.equal(null, err);
-			findDocs(db, CHI, dateStr, tz, days, function(docs) {
+			findDocs(db, COLL, user, dateStr, function(docs) {
 				if (callback) callback(docs)
 				db.close();
 			});
 		});
 	},
 	findGql: function(query, callback) {
-		MongoClient.connect(url, function(err, db) {
+		// graphql?query={ user(id:'cq',date:'01/01/2016') {chi,eng} }
+		MongoClient.connect(URL, function(err, db) {
 			assert.equal(null, err);
-			var cursor = db.collection( CHI).find(query);
+			var cursor = db.collection( COLL).find(query);
 			var gqlObj={};
 			cursor.each( function(err,doc) {
 				assert.equal(err,null);
@@ -51,12 +72,21 @@ module.exports = {
 		});
 	},
 	insert: function(obj, callback) {
-		MongoClient.connect(url, function(err, db) {
+		MongoClient.connect(URL, function(err, db) {
 			if (err == null) {
-				db.collection( CHI).insert( obj, function(err,res) {
-					// {acknowledged: true, insertedId: ObjectId('###...')}
-					assert.equal(err,null);
-					callback( {error: 'None', insertedIds: res.insertedIds});
+				//console.log( 'Insert: '+JSON.stringify(obj));
+				Object.assign( obj, { _id: genId(obj.chi)});
+				if (obj.date == undefined) {
+			  	Object.assign( obj, {date: new Date()});
+			  }
+				db.collection( COLL).insert( obj, function(err,res) {
+					if (err == null) {
+						callback( {error: 'None', insertedIds: res.insertedIds});
+					} else if (err.code == 11000) {
+						callback( {error: 'Duplicate key'})
+					} else {
+						callback( {error: err.message})
+					}
 					db.close();
 				});
 			} else {
@@ -65,9 +95,9 @@ module.exports = {
 		});
 	},
 	updateQuery: function(query, obj, callback) {
-		MongoClient.connect(url, function(err, db) {
+		MongoClient.connect(URL, function(err, db) {
 			if (err == null) {
-				var col = db.collection(CHI);
+				var col = db.collection(COLL);
 			  if (Object.keys(query).length > 0) {
 					col.update( query, {$set: obj}, function(err,res) {
 						assert.equal(err,null);
@@ -83,13 +113,14 @@ module.exports = {
 		});
 	},
 	update: function(id, obj, callback) {
-		MongoClient.connect(url, function(err, db) {
+		MongoClient.connect(URL, function(err, db) {
 			if (err == null) {
 				if (id==obj._id) {
-					var col = db.collection(CHI);
-					var query = {_id: ObjectId(id)}; // id must be a string of 12 bytes or 24 hex characters.
-					delete obj._id;
-					delete obj.date;
+					var col = db.collection(COLL);
+					// ObjectId(id) must be a string of 12 bytes or 24 hex characters.
+					var query = {_id: id};
+					delete obj._id; // Don't need the original
+					delete obj.date; // Don't update the original date
 					col.update( query, {$set: obj}, function(err,res) {
 						assert.equal(err,null);
 						callback( {error: 'None', result: res.result});

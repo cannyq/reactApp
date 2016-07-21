@@ -16,3 +16,10 @@
 			"Second commit"
 			Added GraphQL in serverGql.js
 			"Third commit"
+07/11 Added nesting to GraphQL
+07/13 Changed chinese input field to textarea to handle pinyin 
+			with spaces.  Handled Yabla paste.
+			Fixed timezone issue in findDocs()
+07/15 Modified GraphQL to take user and date as argument. 
+      Added util.js to fix date conversion problem.
+07/18 Added traditional Chinese entry

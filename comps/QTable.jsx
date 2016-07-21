@@ -10,10 +10,14 @@ module.exports = React.createClass({
 	mixins: [DbStore.mixin],
 	getInitialState: function() {
 		//return { list: DbStore.getList(), colNames:['Hide','Hide','Hide']}
-		return { list: [], colNames:['Hide','Hide','Hide']}
+		return { list: [], colNames:['Hide','Hide','Hide','Hide']}
 	},
 	componentDidMount: function() {
-		DbActions.getList( {dateStr: this.props.dateStr, days: this.props.days})
+		//DbActions.getList( {dateStr: this.props.dateStr, days: this.props.days})
+		var query = '{user(id:"'+globals.user+'",date:"' +this.props.dateStr 
+		          + '"){_id,chi,tra,pin,eng} }'
+		DbActions.graphQL( query);
+
 	},
 	OnColChange: function(stat) {
 		this.setState( {colNames: stat})

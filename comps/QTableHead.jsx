@@ -17,12 +17,15 @@ module.exports = React.createClass( {
 			<th className='Qth'>Chinese&nbsp;
 				<button className='QthBut' onClick={this.butClick.bind(this,0)}>
 				{this.state.stat[0]}</button> </th>
-			<th className='Qth'>Pinyin&nbsp; 
+			<th className='Qth'>Trad.&nbsp;
 				<button className='QthBut' onClick={this.butClick.bind(this,1)}>
 				{this.state.stat[1]}</button> </th>
-			<th className='Qth'>English&nbsp;
+			<th className='Qth'>Pinyin&nbsp; 
 				<button className='QthBut' onClick={this.butClick.bind(this,2)}>
 				{this.state.stat[2]}</button> </th>
+			<th className='Qth'>English&nbsp;
+				<button className='QthBut' onClick={this.butClick.bind(this,3)}>
+				{this.state.stat[3]}</button> </th>
 			<th className='Qth'>Update</th>
 		</tr></thead>)
 	}

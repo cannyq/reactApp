@@ -4,6 +4,12 @@ var globals = require('../client/globals.js')
 
 var DbActions = DbBiff.createActions({
  	//contextTypes: { router: React.PropTypes.object },	
+ 	graphQL: function(query) {
+		this.dispatch({
+			actionType: ActNames.GRAPHQL,
+			data: query
+		});
+ 	},
  	getList: function(data) {
 		// Save the last access day so QTable will continue to display 
 		//data of the date when the user navigate to somewhere else.

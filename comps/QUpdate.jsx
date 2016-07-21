@@ -49,16 +49,25 @@ module.exports = React.createClass( {
 				placeholder='Enter Chinese characters' onChange={this.onChange} 
 				className='QIInp'/>
 			<br/>
+
+			<label className='QILab'>Traditional: </label>
+			<input type='text' id='tra' value={this.state.flashObj.tra}
+				placeholder='Enter trad. Chinese' onChange={this.onChange} 
+				className='QIInp'/>
+			<br/>
+
 			<label className='QILab'>Pinyin: </label>
 			<input type='text' id='pin' value={this.state.flashObj.pin}
 				placeholder='Enter pinyin' onChange={this.onChange} 
 				className='QIInp'/>
 			<br/>
+
 			<label className='QILab'>English: </label>
 			<input type='text' id='eng' value={this.state.flashObj.eng}
 				placeholder='Enter English' onChange={this.onChange} 
 				className='QIInp'/>
 			<br/>
+
 			<button className='QIBut' onClick={this.update}>Update record</button>
 			<button className='QIBut' onClick={this.goBack}>Go back</button>
 

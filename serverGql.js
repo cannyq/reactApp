@@ -10,15 +10,28 @@ var graphql = require('graphql');
 var graphqlHTTP = require('express-graphql');
 
 var gqlDocs={};
-var listDocs=[];
+var docArr=[];
 var wordsType = new graphql.GraphQLObjectType({
   name: 'words',
-  fields: {
+  fields: ()=>({
     _id: { type: graphql.GraphQLString},
+    tra: { type: graphql.GraphQLString},
     chi: { type: graphql.GraphQLString},
     pin: { type: graphql.GraphQLString},
-    eng: { type: graphql.GraphQLString}
-  }
+    eng: { type: graphql.GraphQLString},
+    rel: { 
+      type: new graphql.GraphQLList(wordsType),
+      resolve: function (words) {
+        console.log('words='+JSON.stringify(words));
+        var rels=[];
+        if (words) {
+          rels = words.rel.map( item=>gqlDocs[item]);
+        }
+        console.log('rels='+JSON.stringify(rels));
+        return rels;
+      }
+    }
+  })
 });
 var schema = new graphql.GraphQLSchema( {
   query: new graphql.GraphQLObjectType( {
@@ -32,13 +45,27 @@ var schema = new graphql.GraphQLSchema( {
       list: { // ?query={list {chi,eng}}
         type: new graphql.GraphQLList(wordsType),
         resolve: function(source,args) { 
-          return listDocs;
+          return docArr;
+        }
+      },
+      user: {
+        type: new graphql.GraphQLList(wordsType),
+        args: { id: {type:graphql.GraphQLString},
+                date: {type:graphql.GraphQLString}},
+        resolve: function(_,args) {
+          console.log(args);
+          return new Promise( function (Resolve, Reject) {
+            Db.find( args.id, args.date, function( dayDocArr) {
+              console.log('GraphQL found '+ dayDocArr.length + ' records.');
+              Resolve(dayDocArr);
+            });
+          });
         }
       }
     }
   })
 });
-app.use('/graphql', graphqlHTTP({schema:schema, pretty: true}));
+app.use('/graphql', graphqlHTTP({schema:schema, graphiql:true, pretty: true}));
 
 app.use(bodyParser.json({type:'application/json'}));
 
@@ -47,17 +74,16 @@ app.use(express.static( path.join(__dirname, 'public'))); // For static css and 
 var Db = require('./db/db');
 app.get('/db', function( req, res) {
   console.log('Get: '+req.originalUrl);
-  var timezone = (new Date()).getTimezoneOffset()/60;
   var days = parseInt(req.query.days);
-  Db.find( req.query.date, timezone, days, function( docs) {
+  Db.find( req.query.date, days, function( docs) {
     res.send( docs);
     var arr = docs.map( item=>item.eng);
     console.log( 'Sent: '+arr);
   });
 });
 app.post('/db', jsonParser, function( req, res) {
-  console.log('Post: '+JSON.stringify(req.body));
-  Object.assign( req.body, {date: new Date()});
+  var obj = JSON.stringify(req.body);
+  console.log('Post: '+obj);
   Db.insert( req.body, function( result) {
     var jsonStr = JSON.stringify(result);
     res.send( result);
@@ -73,15 +99,17 @@ app.put('/db/:id', jsonParser, function( req, res) {
   });
 });
 app.get('*', function (req, res) {
-	console.log( req.originalUrl)
+	console.log( 'Url: '+req.originalUrl)
 	res.sendFile(path.join(__dirname, 'public', 'index.html'))
 })
 Db.findGql({}, function(gqlRes) {
   gqlDocs = gqlRes;
+  console.log('Db.findGql read '+ Object.keys(gqlDocs).length + ' records.')
 });
-Db.find('*',0,0,function(res) {
-  listDocs = res;
-  console.log( listDocs);
+Db.find('SQ', null,function(res) {
+  docArr = res;
+  //console.log( docArr.filter(item=>item.rel!=undefined));
+  console.log('Db.find got '+docArr.length+' records.');
 });
 
 const PORT = 3000; //8080 // process.env.PORT

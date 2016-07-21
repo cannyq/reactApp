@@ -24,7 +24,7 @@ body {
 }
 
 .QIDiv * { font-family: Arial; font-size:20px; }
-.QILab { width:82px; display:inline-block; }
+.QILab { width:102px; display:inline-block; }
 .QIBut { 
   color: PapayaWhip; 
   background-color: MediumSlateBlue; 
@@ -39,8 +39,8 @@ body {
   background-color: SlateBlue; 
   box-shadow: 0 3px DarkSlateBlue;
   transform: translateY(5px);
-
 }
+#chi {resize: none; height:24px; width:241px; margin:-8px 0 -8px 0 }
 .Update {background-color: CornflowerBlue }
 .chi { color:Black; font-weight: Bold; /*visibility:visible;*/}
 .pin { color:Gray; /*visibility: hidden;*/}
@@ -66,3 +66,7 @@ table, td, th {border: 1px solid lightgray; border-collapse: collapse;}
 .DSButR { border-radius: 0 6px 6px 0; }
 .DSLab {  font-size:20px; text-align: Right; display: inline-block; width:80px; margin-right:6px;} 
 .QTextarea {font-size:24px;}
+.QSel { margin: 10px; background-color: CornSilk; width:60px; height:20px;
+        -webkit-appearance: None;-moz-appearance: None;
+        background: url('/images/down_arr.png') no-repeat right CornSilk;
+        }
