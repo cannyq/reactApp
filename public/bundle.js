@@ -26307,6 +26307,12 @@
 				actionType: ActNames.UPDATE,
 				data: data
 			});
+		},
+		updateStat: function updateStat(data) {
+			this.dispatch({
+				actionType: ActNames.UPDATE_STAT,
+				data: data
+			});
 		}
 	});
 	module.exports = DbActions;
@@ -27536,6 +27542,7 @@
 		GET_LIST: "GET_LIST",
 		INSERT: "INSERT",
 		UPDATE: "UPDATE",
+		UPDATE_STAT: "UPDATE_STAT",
 		GRAPHQL: "GRAPHQL"
 	};
 	module.exports = ActionNames;
@@ -27559,7 +27566,7 @@
 			return this._resp;
 		},
 		getInitFlashObj: function getInitFlashObj() {
-			return { chi: '', tra: '', pin: '', eng: '' };
+			return { chi: '', tra: '', pin: '', eng: '', stat: 'Need Review' };
 		},
 		getRec: function getRec(id) {
 			return this._list.find(function (x) {
@@ -27621,6 +27628,21 @@
 			rest.send(jsonStr);
 			console.log(jsonStr);
 		} else if (payload.actionType === ActNames.UPDATE) {
+			var rest = new XMLHttpRequest();
+			window.self = this;
+			rest.onreadystatechange = function () {
+				if (rest.readyState == 4 && rest.status == 200) {
+					window.self._resp = JSON.parse(rest.responseText);
+					DbStore.emitChange();
+				}
+			};
+			var obj = payload.data;
+			rest.open('PUT', '/db/' + obj._id);
+			rest.setRequestHeader("Content-type", "application/json");
+			var jsonStr = JSON.stringify(payload.data); // Need this
+			rest.send(jsonStr);
+			console.log(jsonStr);
+		} else if (payload.actionType === ActNames.UPDATE_STAT) {
 			var rest = new XMLHttpRequest();
 			window.self = this;
 			rest.onreadystatechange = function () {
@@ -28832,7 +28854,7 @@
 		incDate: function incDate(numDays) {
 			var newDateStr = incDateStr(this.state.dateStr, numDays);
 			this.setState({ dateStr: newDateStr });
-			var query = '{user(id:"' + globals.user + '",date:"' + newDateStr + '"){_id,tra,chi,pin,eng} }';
+			var query = '{user(id:"' + globals.user + '",date:"' + newDateStr + '"){_id,tra,chi,pin,eng,stat} }';
 			DbActions.graphQL(query);
 		},
 
@@ -28887,7 +28909,7 @@
 		},
 		componentDidMount: function componentDidMount() {
 			//DbActions.getList( {dateStr: this.props.dateStr, days: this.props.days})
-			var query = '{user(id:"' + globals.user + '",date:"' + this.props.dateStr + '"){_id,chi,tra,pin,eng} }';
+			var query = '{user(id:"' + globals.user + '",date:"' + this.props.dateStr + '"){_id,chi,tra,pin,eng,stat} }';
 			DbActions.graphQL(query);
 		},
 		OnColChange: function OnColChange(stat) {
@@ -28996,6 +29018,11 @@
 						'th',
 						{ className: 'Qth' },
 						'Update'
+					),
+					React.createElement(
+						'th',
+						{ className: 'Qth' },
+						'Status'
 					)
 				)
 			);
@@ -29015,7 +29042,10 @@
 		displayName: 'exports',
 
 		contextTypes: { router: React.PropTypes.object }, // for .push()
-
+		getInitialState: function getInitialState() {
+			//console.log(this.props.doc)
+			return { doc: this.props.doc };
+		},
 		show: function show(col, field) {
 			return this.props.colNames[col] == 'Hide' ? field : ' ';
 		},
@@ -29023,41 +29053,68 @@
 			// QUpdate can pick up _id with this.props.params.id
 			this.context.router.push('/update/' + this.props.doc._id);
 		},
+		getTogStat: function getTogStat(stat) {
+			return stat == 'Need Review' ? 'Got It' : 'Need Review';
+		},
+		getCss: function getCss(stat) {
+			return stat == 'Need Review' ? ' needRev' : '';
+		},
+		componentWillReceiveProps: function componentWillReceiveProps(nextProps) {
+			//console.log( nextProps.doc)
+			this.setState({ doc: nextProps.doc });
+		},
+		statusClick: function statusClick() {
+			this.state.doc.stat = this.getTogStat(this.state.doc.stat);
+			DbActions.updateStat(this.state.doc);
+			this.setState({ doc: this.state.doc });
+		},
 		render: function render() {
+			var dispStat = this.getTogStat(this.state.doc.stat);
+			var statCss = this.getCss(this.state.doc.stat);
 			return React.createElement(
 				'tr',
 				{ className: 'Qtr' },
 				React.createElement(
 					'td',
-					{ className: 'chi' },
+					{ className: 'chi' + statCss },
 					this.show(0, this.props.doc.chi),
 					' '
 				),
 				React.createElement(
 					'td',
-					{ className: 'tra' },
+					{ className: 'tra' + statCss },
 					this.show(1, this.props.doc.tra),
 					' '
 				),
 				React.createElement(
 					'td',
-					{ className: 'pin' },
+					{ className: 'pin' + statCss },
 					this.show(2, this.props.doc.pin),
 					' '
 				),
 				React.createElement(
 					'td',
-					{ className: 'eng' },
+					{ className: 'eng' + statCss },
 					this.show(3, this.props.doc.eng),
 					' '
 				),
 				React.createElement(
 					'td',
-					null,
+					{ className: statCss },
 					React.createElement(
 						'button',
 						{ className: 'QtrBut', onClick: this.updateClick },
 						'Update'
+					),
+					' '
+				),
+				React.createElement(
+					'td',
+					{ className: statCss },
+					React.createElement(
+						'button',
+						{ className: 'QtrBut', onClick: this.statusClick },
+						dispStat
 					),
 					' '
 				)

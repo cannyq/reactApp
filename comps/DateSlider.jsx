@@ -12,7 +12,7 @@ module.exports = React.createClass({
 		var newDateStr = incDateStr(this.state.dateStr,numDays);
 		this.setState( {dateStr: newDateStr}) 
 		var query = '{user(id:"'+ globals.user+'",date:"' +newDateStr 
-		          + '"){_id,tra,chi,pin,eng} }'
+		          + '"){_id,tra,chi,pin,eng,stat} }'
 		DbActions.graphQL( query);
 	},
 	/*changeDays: function(event) {

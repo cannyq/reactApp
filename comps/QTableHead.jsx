@@ -27,6 +27,7 @@ module.exports = React.createClass( {
 				<button className='QthBut' onClick={this.butClick.bind(this,3)}>
 				{this.state.stat[3]}</button> </th>
 			<th className='Qth'>Update</th>
+			<th className='Qth'>Status</th>
 		</tr></thead>)
 	}
 })

@@ -15,7 +15,7 @@ module.exports = React.createClass({
 	componentDidMount: function() {
 		//DbActions.getList( {dateStr: this.props.dateStr, days: this.props.days})
 		var query = '{user(id:"'+globals.user+'",date:"' +this.props.dateStr 
-		          + '"){_id,chi,tra,pin,eng} }'
+		          + '"){_id,chi,tra,pin,eng,stat} }'
 		DbActions.graphQL( query);
 
 	},

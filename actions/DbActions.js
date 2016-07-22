@@ -35,6 +35,12 @@ var DbActions = DbBiff.createActions({
 			actionType: ActNames.UPDATE,
 			data: data
 		});
+	},
+	updateStat: function(data) {
+		this.dispatch({
+			actionType: ActNames.UPDATE_STAT,
+			data: data
+		});
 	}
 });
 module.exports = DbActions;

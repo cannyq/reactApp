@@ -16,7 +16,8 @@ body {
   background-image: -webkit-linear-gradient(top, #b390fb, MediumSlateBlue);
   border:1px solid #666;
 }
-.Qtr { font-size: 30px; background-color: CornSilk;}
+.Qtr { font-size: 30px; background-color: Thistle;}
+.needRev {background-color: CornSilk;}
 .QtrBut { 
   border-radius: 6px; background-color: MediumSlateBlue; color:#222; 
   background-image: -webkit-linear-gradient(top, #b390fb, MediumSlateBlue);
@@ -45,7 +46,7 @@ body {
 .chi { color:Black; font-weight: Bold; /*visibility:visible;*/}
 .pin { color:Gray; /*visibility: hidden;*/}
 .eng { color:Black; }
-table, td, th {border: 1px solid lightgray; border-collapse: collapse;}
+table, td, th {border: 1px Solid lightGray; border-collapse: Collapse;}
 
 .DSInp, #days {  
 	font-size:20px; color: Gray; background-color: CornSilk; 

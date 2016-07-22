@@ -1,72 +1,171 @@
-{"_id":"59276982","chi":"大概","pin":"Dàgài","eng":"roughly, probably","user":"SQ","date":{"$date":"2016-06-27T19:00:00.000Z"}}
-{"_id":"5f0059cb","chi":"开始","pin":"Kāishǐ","eng":"begin","user":"SQ","date":{"$date":"2016-06-27T19:00:00.000Z"}}
-{"_id":"8df3821e","chi":"跳舞","pin":"Tiàowǔ","eng":"dance","user":"SQ","date":{"$date":"2016-06-27T19:00:00.000Z"}}
-{"_id":"751c54c1","chi":"甜品","pin":"Tiánpǐn","eng":"dessert","user":"SQ","date":{"$date":"2016-06-27T19:00:00.000Z"}}
-{"_id":"67084eae","chi":"月亮","pin":"Yuèliàng","eng":"moon","user":"SQ","date":{"$date":"2016-06-27T19:00:00.000Z"}}
-{"_id":"624b673a","chi":"手机","pin":"Shǒujī","eng":"cell phone","user":"SQ","date":{"$date":"2016-06-28T19:00:00.000Z"}}
-{"_id":"98de673a","chi":"飞机","pin":"Fēijī","eng":"airplane","user":"SQ","date":{"$date":"2016-06-28T19:00:00.000Z"}}
-{"_id":"51b76c14673a","chi":"冷气机","pin":"Lěngqì jī","eng":"AC","user":"SQ","date":{"$date":"2016-06-28T19:00:00.000Z"}}
-{"_id":"66966c14673a","chi":"暖气机","pin":"Nuǎnqì jī","eng":"heater","user":"SQ","date":{"$date":"2016-06-28T19:00:00.000Z"}}
-{"_id":"6d178863673a","chi":"洗衣机","pin":"Xǐyījī","eng":"washing machine","user":"SQ","date":{"$date":"2016-06-28T19:00:00.000Z"}}
-{"_id":"5fae7b11","chi":"微笑","pin":"Wéixiào","eng":"smile","user":"SQ","date":{"$date":"2016-06-28T19:00:00.000Z"}}
-{"_id":"56de7b54","chi":"回答","pin":"Huídá","eng":"answer, reply","user":"SQ","date":{"$date":"2016-06-28T19:00:00.000Z"}}
-{"_id":"591a4e45","chi":"多久","pin":"Duōjiǔ","eng":"how long","user":"SQ","date":{"$date":"2016-06-29T19:00:00.000Z"}}
-{"_id":"5c0f65f6","chi":"小时","pin":"Xiǎoshí","eng":"hour","user":"SQ","date":{"$date":"2016-06-29T19:00:00.000Z"}}
-{"_id":"65f695f4","chi":"时间","pin":"Shíjiān","eng":"time","user":"SQ","date":{"$date":"2016-06-29T19:00:00.000Z"}}
-{"_id":"4ec04e4865f65019","chi":"什么时候","pin":"Shénme shíhòu","eng":"when","user":"SQ","date":{"$date":"2016-06-29T19:00:00.000Z"}}
-{"_id":"61c2","chi":"懂","pin":"Dǒng","eng":"understand","user":"SQ","date":{"$date":"2016-06-29T19:00:00.000Z"}}
-{"_id":"91cd","chi":"重","pin":"Zhòng","eng":"heavy","user":"SQ","date":{"$date":"2016-06-29T19:00:00.000Z"}}
-{"_id":"6700","chi":"最","pin":"Zuì","eng":"most","rel":["77ed"],"user":"SQ","date":{"$date":"2016-06-29T19:00:00.000Z"}}
-{"_id":"620f9662","chi":"戏院","pin":"Xíyuàn","eng":"theater","user":"SQ","date":{"$date":"2016-06-29T19:00:00.000Z"}}
-{"_id":"7a0d540e","chi":"稍后","pin":"Shāo hòu","eng":"later","user":"SQ","date":{"$date":"2016-07-01T19:00:00.000Z"}}
-{"_id":"62404ee5","chi":"所以","pin":"Suǒyǐ","eng":"therefore/so","user":"SQ","date":{"$date":"2016-07-01T19:00:00.000Z"}}
-{"_id":"4e00624059275b66","chi":"一所大学","pin":"Yī suǒ dàxué","eng":"a university","user":"SQ","date":{"$date":"2016-07-01T19:00:00.000Z"}}
-{"_id":"5b664e60","chi":"学习","pin":"xuéxí","eng":"study","user":"SQ","date":{"$date":"2016-07-01T19:00:00.000Z"}}
-{"_id":"505a","chi":"做","pin":"Zuò","eng":"do","user":"SQ","date":{"$date":"2016-07-01T19:00:00.000Z"}}
-{"_id":"8fd052a8","chi":"运动","pin":"Yùndòng","eng":"exercise,movement","user":"SQ","date":{"$date":"2016-07-01T19:00:00.000Z"}}
-{"_id":"5e72","chi":"干","pin":"Gàn","eng":"do (negative)","user":"SQ","date":{"$date":"2016-07-01T19:00:00.000Z"}}
-{"_id":"8bf4","chi":"说","pin":"Shuō","eng":"say,talk","user":"SQ","date":{"$date":"2016-07-01T19:00:00.000Z"}}
-{"_id":"8bb2","chi":"讲","pin":"Jiǎng","eng":"tell,say,speak","user":"SQ","date":{"$date":"2016-07-01T19:00:00.000Z"}}
-{"_id":"573065b9","chi":"地方","pin":"Dìfāng","eng":"place","user":"SQ","date":{"$date":"2016-07-04T05:39:04.708Z"}}
-{"_id":"6bcf5929","chi":"每天","pin":"Měitiān","eng":"everyday","user":"SQ","date":{"$date":"2016-07-04T05:40:24.031Z"}}
-{"_id":"886859b9","chi":"表妹","pin":"Biǎomèi","eng":"younger female cousin","user":"SQ","date":{"$date":"2016-07-04T05:43:14.579Z"}}
-{"_id":"886859d0","chi":"表姐","pin":"Biǎojiě","eng":"older female cousin","user":"SQ","date":{"$date":"2016-07-04T05:44:06.293Z"}}
-{"_id":"886854e5","chi":"表哥","pin":"Biǎo gē","eng":"older male cousin","user":"SQ","date":{"$date":"2016-07-04T05:45:32.133Z"}}
-{"_id":"88685f1f","chi":"表弟","pin":"Biǎo dì","eng":"younger male cousin","user":"SQ","date":{"$date":"2016-07-04T05:46:06.358Z"}}
-{"_id":"86cb7cd5","chi":"蛋糕","pin":"Dàngāo","eng":"cake","user":"SQ","date":{"$date":"2016-07-04T05:49:13.663Z"}}
-{"_id":"56fd5e8665e5","chi":"国庆日","pin":"Guóqìng rì","eng":"Independence Day","user":"SQ","date":{"$date":"2016-07-05T02:22:55.416Z"}}
-{"_id":"70df82b1","chi":"烟花","pin":"Yānhuā","eng":"fireworks","user":"SQ","date":{"$date":"2016-07-05T02:23:31.390Z"}}
-{"_id":"5e86795d","chi":"庆祝","pin":"Qìngzhù","eng":"celebrate","user":"SQ","date":{"$date":"2016-07-05T06:10:44.996Z"}}
-{"_id":"6bd48f83","chi":"比较","pin":"Bǐjiào","eng":"compare, relatively","user":"SQ","date":{"$date":"2016-07-06T04:51:27.484Z"}}
-{"_id":"4ee54e3a","chi":"以为","pin":"Yǐwéi","eng":"thought (neg. outcome), under the impression","user":"SQ","date":{"$date":"2016-07-06T04:55:29.983Z"}}
-{"_id":"533b9662","chi":"医院","pin":"Yīyuàn","eng":"hospital","user":"SQ","date":{"$date":"2016-07-06T05:13:42.249Z"}}
-{"_id":"540c5b66","chi":"同学","pin":"Tóngxué","eng":"classmate","user":"SQ","date":{"$date":"2016-07-06T05:17:35.746Z"}}
-{"_id":"75376027","chi":"男性","pin":"NánXìng","eng":"male","user":"SQ","date":{"$date":"2016-07-06T05:25:12.334Z"}}
-{"_id":"7275624b","chi":"牵手","pin":"Qiānshǒu","eng":"hold hands","user":"SQ","date":{"$date":"2016-07-06T17:22:56.782Z"}}
-{"_id":"70ed72d7","chi":"热狗","pin":"Règǒu","eng":"hot dog","user":"SQ","date":{"$date":"2016-07-08T02:23:57.187Z"}}
-{"_id":"672874dc","chi":"木瓜","pin":"Mùguā","eng":"papaya","user":"SQ","date":{"$date":"2016-07-08T02:24:56.653Z"}}
-{"_id":"861183c7","chi":"蘑菇","pin":"Mógū","eng":"mushroom","user":"SQ","date":{"$date":"2016-07-08T02:25:28.428Z"}}
-{"_id":"83e0841d","chi":"菠萝","pin":"Bōluó","eng":"pineapple","user":"SQ","date":{"$date":"2016-07-08T02:25:58.224Z"}}
-{"_id":"8fa36912","chi":"辣椒","pin":"Làjiāo","eng":"chili pepper","user":"SQ","date":{"$date":"2016-07-08T02:26:53.927Z"}}
-{"_id":"957f","chi":"长","pin":"Cháng","eng":"long","rel":["77ed"],"user":"SQ","date":{"$date":"2016-07-08T02:37:32.338Z"}}
-{"_id":"77ed","chi":"短","pin":"Duǎn","eng":"short","rel":["957f"],"user":"SQ","date":{"$date":"2016-07-08T02:37:46.128Z"}}
-{"_id":"5fd9","chi":"忙","pin":"Máng","eng":"busy","user":"SQ","date":{"$date":"2016-07-09T02:14:33.773Z"}}
-{"_id":"7f8e4e3d","chi":"美丽","pin":"Měil","eng":"beautiful","user":"SQ","date":{"$date":"2016-07-09T02:15:48.690Z"}}
-{"_id":"732b","chi":"猫","pin":"Māo","eng":"cat","user":"SQ","date":{"$date":"2016-07-09T02:16:16.931Z"}}
-{"_id":"5e2e","chi":"帮","pin":"Bāng","eng":"help","user":"SQ","date":{"$date":"2016-07-09T04:51:32.202Z"}}
-{"_id":"4ece","chi":"从","pin":"Cóng","eng":"from","user":"SQ","date":{"$date":"2016-07-09T20:17:51.339Z"}}
-{"_id":"8349","chi":"草","pin":"Cǎo","eng":"grass","user":"SQ","date":{"$date":"2016-07-09T20:21:41.139Z"}}
-{"_id":"83498393","chi":"草莓","pin":"Cǎoméi","eng":"strawberry","user":"SQ","date":{"$date":"2016-07-09T20:22:06.785Z"}}
-{"_id":"84dd8393","chi":"蓝莓","pin":"Lánméi","eng":"blueberry","user":"SQ","date":{"$date":"2016-07-09T20:22:26.155Z"}}
-{"_id":"9ed18393","chi":"黑莓","pin":"Hēiméi","eng":"blackberry","user":"SQ","date":{"$date":"2016-07-09T20:23:24.490Z"}}
-{"_id":"81ea","chi":"自己","pin":"Zìjǐ","eng":"self","user":"SQ","date":{"$date":"2016-07-12T01:00:32.753Z"}}
-{"_id":"756a8304","chi":"番茄","pin":"Fānqié","eng":"tomato","user":"SQ","date":{"$date":"2016-07-10T19:00:00.000Z"}}
-{"_id":"83045b50","chi":"茄子","pin":"Qiézi","eng":"eggplant","user":"SQ","date":{"$date":"2016-07-10T19:00:00.000Z"}}
-{"_id":"54c85bc6200b200b74dc","chi":"哈密​​瓜","pin":"Hāmì​​guā","eng":"cantaloupe","user":"SQ","date":{"$date":"2016-07-10T19:00:00.000Z"}}
-{"_id":"5e948be5","chi":"应该","pin":"Yīnggāi","eng":"should","user":"SQ","date":{"$date":"2016-07-10T19:00:00.000Z"}}
-{"_id":"97f34e50","chi":"音乐","pin":"Yīnyuè","eng":"music","user":"SQ","date":{"$date":"2016-07-10T19:00:00.000Z"}}
-{"_id":"5143","chi":"元","pin":"Yuán","eng":"yuan (dollar)","user":"SQ","date":{"$date":"2016-07-10T19:00:00.000Z"}}
-{"_id":"6f1455314f1a","chi":"演唱会","pin":"Yǎn chàng huì","eng":"concert","user":"SQ","date":{"$date":"2016-07-09T19:00:00.000Z"}}
-{"_id":"5f005fc3","chi":"开心","pin":"kāi xīn","eng":"joyful","user":"SQ","date":{"$date":"2016-07-09T19:00:00.000Z"}}
-{"_id":"955c5b50","chi":"镜子","pin":"Jìngzi","eng":"mirror","user":"SQ","date":{"$date":"2016-07-12T02:01:16.801Z"}}
-{"_id":"773c955c","chi":"眼镜","pin":"Yǎnjìng","eng":"eyeglasses","user":"SQ","date":{"$date":"2016-07-12T02:02:14.639Z"}}
+{"_id":"59276982","chi":"大概","pin":"Dàgài","eng":"roughly, probably","user":"SQ","date":{"$date":"2016-06-27T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"5f0059cb","chi":"开始","pin":"Kāishǐ","eng":"begin","user":"SQ","date":{"$date":"2016-06-27T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"8df3821e","chi":"跳舞","pin":"Tiàowǔ","eng":"dance","user":"SQ","date":{"$date":"2016-06-27T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"751c54c1","chi":"甜品","pin":"Tiánpǐn","eng":"dessert","user":"SQ","date":{"$date":"2016-06-27T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"67084eae","chi":"月亮","pin":"Yuèliàng","eng":"moon","user":"SQ","date":{"$date":"2016-06-27T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"624b673a","chi":"手机","pin":"Shǒujī","eng":"cell phone","user":"SQ","date":{"$date":"2016-06-28T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"98de673a","chi":"飞机","pin":"Fēijī","eng":"airplane","user":"SQ","date":{"$date":"2016-06-28T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"51b76c14673a","chi":"冷气机","pin":"Lěngqì jī","eng":"AC","user":"SQ","date":{"$date":"2016-06-28T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"66966c14673a","chi":"暖气机","pin":"Nuǎnqì jī","eng":"heater","user":"SQ","date":{"$date":"2016-06-28T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"6d178863673a","chi":"洗衣机","pin":"Xǐyījī","eng":"washing machine","user":"SQ","date":{"$date":"2016-06-28T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"5fae7b11","chi":"微笑","pin":"Wéixiào","eng":"smile","user":"SQ","date":{"$date":"2016-06-28T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"56de7b54","chi":"回答","pin":"Huídá","eng":"answer, reply","user":"SQ","date":{"$date":"2016-06-28T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"591a4e45","chi":"多久","pin":"Duōjiǔ","eng":"how long","user":"SQ","date":{"$date":"2016-06-29T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"5c0f65f6","chi":"小时","pin":"Xiǎoshí","eng":"hour","user":"SQ","date":{"$date":"2016-06-29T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"65f695f4","chi":"时间","pin":"Shíjiān","eng":"time","user":"SQ","date":{"$date":"2016-06-29T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"4ec04e4865f65019","chi":"什么时候","pin":"Shénme shíhòu","eng":"when","user":"SQ","date":{"$date":"2016-06-29T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"61c2","chi":"懂","pin":"Dǒng","eng":"understand","user":"SQ","date":{"$date":"2016-06-29T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"91cd","chi":"重","pin":"Zhòng","eng":"heavy","user":"SQ","date":{"$date":"2016-06-29T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"6700","chi":"最","pin":"Zuì","eng":"most","rel":["77ed"],"user":"SQ","date":{"$date":"2016-06-29T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"620f9662","chi":"戏院","pin":"Xíyuàn","eng":"theater","user":"SQ","date":{"$date":"2016-06-29T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"7a0d540e","chi":"稍后","pin":"Shāo hòu","eng":"later","user":"SQ","date":{"$date":"2016-07-01T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"62404ee5","chi":"所以","pin":"Suǒyǐ","eng":"therefore/so","user":"SQ","date":{"$date":"2016-07-01T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"4e00624059275b66","chi":"一所大学","pin":"Yī suǒ dàxué","eng":"a university","user":"SQ","date":{"$date":"2016-07-01T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"5b664e60","chi":"学习","pin":"xuéxí","eng":"study","user":"SQ","date":{"$date":"2016-07-01T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"505a","chi":"做","pin":"Zuò","eng":"do","user":"SQ","date":{"$date":"2016-07-01T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"8fd052a8","chi":"运动","pin":"Yùndòng","eng":"exercise,movement","user":"SQ","date":{"$date":"2016-07-01T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"5e72","chi":"干","pin":"Gàn","eng":"do (negative)","user":"SQ","date":{"$date":"2016-07-01T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"8bf4","chi":"说","pin":"Shuō","eng":"say,talk","user":"SQ","date":{"$date":"2016-07-01T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"8bb2","chi":"讲","pin":"Jiǎng","eng":"tell,say,speak","user":"SQ","date":{"$date":"2016-07-01T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"573065b9","chi":"地方","pin":"Dìfāng","eng":"place","user":"SQ","date":{"$date":"2016-07-04T05:39:04.708Z"},"stat":"Need Review"}
+{"_id":"6bcf5929","chi":"每天","pin":"Měitiān","eng":"everyday","user":"SQ","date":{"$date":"2016-07-04T05:40:24.031Z"},"stat":"Need Review"}
+{"_id":"886859b9","chi":"表妹","pin":"Biǎomèi","eng":"younger female cousin","user":"SQ","date":{"$date":"2016-07-04T05:43:14.579Z"},"stat":"Need Review"}
+{"_id":"886859d0","chi":"表姐","pin":"Biǎojiě","eng":"older female cousin","user":"SQ","date":{"$date":"2016-07-04T05:44:06.293Z"},"stat":"Need Review"}
+{"_id":"886854e5","chi":"表哥","pin":"Biǎo gē","eng":"older male cousin","user":"SQ","date":{"$date":"2016-07-04T05:45:32.133Z"},"stat":"Need Review"}
+{"_id":"88685f1f","chi":"表弟","pin":"Biǎo dì","eng":"younger male cousin","user":"SQ","date":{"$date":"2016-07-04T05:46:06.358Z"},"stat":"Need Review"}
+{"_id":"86cb7cd5","chi":"蛋糕","pin":"Dàngāo","eng":"cake","user":"SQ","date":{"$date":"2016-07-04T05:49:13.663Z"},"stat":"Need Review"}
+{"_id":"56fd5e8665e5","chi":"国庆日","pin":"Guóqìng rì","eng":"Independence Day","user":"SQ","date":{"$date":"2016-07-05T02:22:55.416Z"},"stat":"Need Review"}
+{"_id":"70df82b1","chi":"烟花","pin":"Yānhuā","eng":"fireworks","user":"SQ","date":{"$date":"2016-07-05T02:23:31.390Z"},"stat":"Need Review"}
+{"_id":"5e86795d","chi":"庆祝","pin":"Qìngzhù","eng":"celebrate","user":"SQ","date":{"$date":"2016-07-05T06:10:44.996Z"},"stat":"Need Review"}
+{"_id":"6bd48f83","chi":"比较","pin":"Bǐjiào","eng":"compare, relatively","user":"SQ","date":{"$date":"2016-07-06T04:51:27.484Z"},"stat":"Need Review"}
+{"_id":"4ee54e3a","chi":"以为","pin":"Yǐwéi","eng":"thought (opposite outcome), under the impression","user":"SQ","date":{"$date":"2016-07-06T04:55:29.983Z"},"stat":"Need Review"}
+{"_id":"533b9662","chi":"医院","pin":"Yīyuàn","eng":"hospital","user":"SQ","date":{"$date":"2016-07-06T05:13:42.249Z"},"stat":"Need Review"}
+{"_id":"540c5b66","chi":"同学","pin":"Tóngxué","eng":"classmate","user":"SQ","date":{"$date":"2016-07-06T05:17:35.746Z"},"stat":"Need Review"}
+{"_id":"75376027","chi":"男性","pin":"NánXìng","eng":"male","user":"SQ","date":{"$date":"2016-07-06T05:25:12.334Z"},"stat":"Need Review"}
+{"_id":"7275624b","chi":"牵手","pin":"Qiānshǒu","eng":"hold hands","user":"SQ","date":{"$date":"2016-07-06T17:22:56.782Z"},"stat":"Need Review"}
+{"_id":"70ed72d7","chi":"热狗","pin":"Règǒu","eng":"hot dog","user":"SQ","date":{"$date":"2016-07-08T02:23:57.187Z"},"stat":"Need Review"}
+{"_id":"672874dc","chi":"木瓜","pin":"Mùguā","eng":"papaya","user":"SQ","date":{"$date":"2016-07-08T02:24:56.653Z"},"stat":"Need Review"}
+{"_id":"861183c7","chi":"蘑菇","pin":"Mógū","eng":"mushroom","user":"SQ","date":{"$date":"2016-07-08T02:25:28.428Z"},"stat":"Need Review"}
+{"_id":"83e0841d","chi":"菠萝","pin":"Bōluó","eng":"pineapple","user":"SQ","date":{"$date":"2016-07-08T02:25:58.224Z"},"stat":"Need Review"}
+{"_id":"8fa36912","chi":"辣椒","pin":"Làjiāo","eng":"chili pepper","user":"SQ","date":{"$date":"2016-07-08T02:26:53.927Z"},"stat":"Need Review"}
+{"_id":"957f","chi":"长","pin":"Cháng","eng":"long","rel":["77ed"],"user":"SQ","date":{"$date":"2016-07-08T02:37:32.338Z"},"stat":"Need Review"}
+{"_id":"77ed","chi":"短","pin":"Duǎn","eng":"short","rel":["957f"],"user":"SQ","date":{"$date":"2016-07-08T02:37:46.128Z"},"stat":"Need Review"}
+{"_id":"5fd9","chi":"忙","pin":"Máng","eng":"busy","user":"SQ","date":{"$date":"2016-07-09T02:14:33.773Z"},"stat":"Need Review"}
+{"_id":"7f8e4e3d","chi":"美丽","pin":"Měil","eng":"beautiful","user":"SQ","date":{"$date":"2016-07-09T02:15:48.690Z"},"stat":"Need Review"}
+{"_id":"732b","chi":"猫","pin":"Māo","eng":"cat","user":"SQ","date":{"$date":"2016-07-09T02:16:16.931Z"},"stat":"Need Review"}
+{"_id":"5e2e","chi":"帮忙","pin":"Bāng","eng":"help","user":"SQ","date":{"$date":"2016-07-09T04:51:32.202Z"},"stat":"Need Review"}
+{"_id":"4ece","chi":"从","pin":"Cóng","eng":"from","user":"SQ","date":{"$date":"2016-07-09T20:17:51.339Z"},"stat":"Need Review"}
+{"_id":"8349","chi":"草","pin":"Cǎo","eng":"grass","user":"SQ","date":{"$date":"2016-07-09T20:21:41.139Z"},"stat":"Need Review"}
+{"_id":"84dd8393","chi":"蓝莓","pin":"Lánméi","eng":"blueberry","user":"SQ","date":{"$date":"2016-07-09T20:22:26.155Z"},"stat":"Need Review"}
+{"_id":"83498393","chi":"草莓","pin":"Cǎoméi","eng":"strawberry","user":"SQ","date":{"$date":"2016-07-09T20:22:06.785Z"},"stat":"Need Review"}
+{"_id":"9ed18393","chi":"黑莓","pin":"Hēiméi","eng":"blackberry","user":"SQ","date":{"$date":"2016-07-09T20:23:24.490Z"},"stat":"Need Review"}
+{"_id":"81ea","chi":"自己","pin":"Zìjǐ","eng":"self","user":"SQ","date":{"$date":"2016-07-12T01:00:32.753Z"},"stat":"Got It","tra":null}
+{"_id":"756a8304","chi":"番茄","pin":"Fānqié","eng":"tomato","user":"SQ","date":{"$date":"2016-07-10T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"83045b50","chi":"茄子","pin":"Qiézi","eng":"eggplant","user":"SQ","date":{"$date":"2016-07-10T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"54c85bc6200b200b74dc","chi":"哈密​​瓜","pin":"Hāmì​​guā","eng":"cantaloupe","user":"SQ","date":{"$date":"2016-07-10T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"5e948be5","chi":"应该","pin":"Yīnggāi","eng":"should","user":"SQ","date":{"$date":"2016-07-10T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"97f34e50","chi":"音乐","pin":"Yīnyuè","eng":"music","user":"SQ","date":{"$date":"2016-07-10T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"5143","chi":"元","pin":"Yuán","eng":"yuan (dollar)","user":"SQ","date":{"$date":"2016-07-10T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"6f1455314f1a","chi":"演唱会","pin":"Yǎn chàng huì","eng":"concert","user":"SQ","date":{"$date":"2016-07-09T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"5f005fc3","chi":"开心","pin":"kāi xīn","eng":"joyful","user":"SQ","date":{"$date":"2016-07-09T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"955c5b50","chi":"镜子","pin":"Jìngzi","eng":"mirror","user":"SQ","date":{"$date":"2016-07-12T02:01:16.801Z"},"stat":"Got It","tra":null}
+{"_id":"773c955c","chi":"眼镜","pin":"Yǎnjìng","eng":"eyeglasses","user":"SQ","date":{"$date":"2016-07-12T02:02:14.639Z"},"stat":"Got It","tra":null}
+{"_id":"9f3b5b50","chi":"鼻子","pin":"Bízi","eng":"nose","user":"SQ","date":{"$date":"2016-07-13T03:34:42.929Z"},"stat":"Got It","tra":null}
+{"_id":"80336735","chi":"耳朵","pin":"Ěrduo","eng":"ear","user":"SQ","date":{"$date":"2016-07-13T03:35:14.747Z"},"stat":"Got It","tra":null}
+{"_id":"208138","chi":" 脸","pin":"liǎn","eng":"face","user":"SQ","date":{"$date":"2016-07-13T03:37:44.567Z"},"stat":"Got It","tra":null}
+{"_id":"89c95f97","chi":"觉得","pin":"juéde","eng":"to feel (about something)","user":"SQ","date":{"$date":"2016-07-13T03:45:38.568Z"},"stat":"Got It","tra":null}
+{"_id":"600e4e486837","chi":"怎么样","pin":"zěnmeyàng","eng":"how","user":"SQ","date":{"$date":"2016-07-13T03:46:09.395Z"},"stat":"Got It","tra":null}
+{"_id":"8292679c","chi":"芒果","pin":"máng guǒ","eng":"mango","user":"SQ","date":{"$date":"2016-07-13T21:31:05.100Z"},"stat":"Got It","tra":null}
+{"_id":"4e0b6b21","chi":"下次","pin":"xià cì","eng":"next time","user":"SQ","date":{"$date":"2016-07-13T21:32:59.391Z"},"stat":"Got It","tra":null}
+{"_id":"4e0a6b21","chi":"上次","pin":"shàng cì","eng":"last time","user":"SQ","date":{"$date":"2016-07-13T21:33:44.752Z"},"stat":"Got It","tra":null}
+{"_id":"97008981","chi":"需要","pin":"xū yào","eng":"need","user":"SQ","date":{"$date":"2016-07-13T21:36:03.368Z"},"stat":"Need Review"}
+{"_id":"65b0","chi":"新","pin":"xīn","eng":"new","user":"SQ","date":{"$date":"2016-07-13T21:36:20.576Z"},"stat":"Got It","tra":null}
+{"_id":"98df7269","chi":"食物","pin":"shí wù","eng":"food","user":"SQ","date":{"$date":"2016-07-13T22:26:18.907Z"},"stat":"Got It","tra":null}
+{"_id":"98df54c1","chi":"食品","pin":"shí pǐn","eng":"food (processed)","user":"SQ","date":{"$date":"2016-07-14T03:54:18.972Z"},"stat":"Got It","tra":null}
+{"_id":"5df27ecf","chi":"已经","pin":"yǐ jīng","eng":"already","user":"SQ","date":{"$date":"2016-07-14T08:47:12.421Z"},"stat":"Got It","tra":null}
+{"_id":"6570","chi":"数","pin":"shǔ","eng":"to count","user":"SQ","date":{"$date":"2016-07-15T04:07:57.312Z"},"stat":"Got It","tra":null}
+{"_id":"7ecf5e3820","chi":"经常 ","pin":"jīng cháng","eng":"frequently","user":"SQ","date":{"$date":"2016-07-15T04:11:46.895Z"},"stat":"Got It","tra":null}
+{"_id":"4e0d9519","chi":"不错","pin":"bù cuò","eng":"not bad","user":"SQ","date":{"$date":"2016-07-15T04:13:22.597Z"},"stat":"Got It","tra":null}
+{"_id":"52a0","chi":"加","pin":"jiā","eng":"to add","user":"SQ","date":{"$date":"2016-07-15T04:21:56.161Z"},"stat":"Got It","tra":null}
+{"_id":"793c62dc","chi":"礼拜","pin":"lǐ bài","eng":"week, worship","user":"SQ","date":{"$date":"2016-07-15T05:05:52.267Z"},"stat":"Got It","tra":null}
+{"_id":"767d83dc","chi":"白菜","pin":"bái cài","eng":"Chinese cabbage","user":"SQ","date":{"$date":"2016-07-16T04:00:00.000Z"},"stat":"Got It","tra":null}
+{"_id":"8c468150","chi":"豆腐","pin":"dòu fu","eng":"tofu, bean curd","user":"SQ","date":{"$date":"2016-07-16T04:00:00.000Z"},"stat":"Got It","tra":null}
+{"_id":"716e","chi":"煮","pin":"zhǔ","eng":"to cook","user":"SQ","date":{"$date":"2016-07-16T04:00:00.000Z"},"stat":"Got It","tra":null}
+{"_id":"8def","chi":"路","pin":"lù","eng":"road, street","user":"SQ","date":{"$date":"2016-07-16T04:00:00.000Z"},"stat":"Got It","tra":null}
+{"_id":"8d708def","chi":"走路","pin":"zǒu lù","eng":"to walk","user":"SQ","date":{"$date":"2016-07-16T04:00:00.000Z"},"stat":"Got It","tra":null}
+{"_id":"8fc79a6c8def","chi":"过马路","pin":"guò mǎ lù","eng":"to cross the street","user":"SQ","date":{"$date":"2016-07-16T04:00:00.000Z"},"stat":"Got It","tra":null}
+{"_id":"5c0f5fc3","chi":"小心","pin":"xiǎo xīn","eng":"be careful","user":"SQ","date":{"$date":"2016-07-16T04:00:00.000Z"},"stat":"Got It","tra":null}
+{"_id":"8eab","chi":"身体","pin":"shēntǐ","eng":"body","user":"SQ","date":{"$date":"2016-07-18T05:00:00.000Z"},"tra":"身體","stat":"Need Review"}
+{"_id":"8c228c22","chi":"谢谢","pin":"xiè xie","eng":"thanks","user":"SQ","date":{"$date":"2016-07-18T05:00:00.000Z"},"stat":"Got It","tra":null}
+{"_id":"51b35b9a","chi":"决定","pin":"jué dìng","eng":"decide","user":"SQ","date":{"$date":"2016-07-18T05:00:00.000Z"},"stat":"Need Review"}
+{"_id":"4e005b9a","chi":"一定","pin":"yī dìng","eng":"certainly","user":"SQ","date":{"$date":"2016-07-18T05:00:00.000Z"},"stat":"Need Review"}
+{"_id":"70e7","chi":"烧","tra":"燒","pin":"shāo","eng":"burn, roast","user":"CQ","date":{"$date":"2016-07-19T01:00:00.000Z"},"stat":"Got It"}
+{"_id":"70e4","chi":"烤","tra":"","pin":"kǎo","eng":"roast, bake, grill","user":"CQ","date":{"$date":"2016-07-19T01:00:00.000Z"},"stat":"Got It"}
+{"_id":"99849968","chi":"馄饨","tra":"餛飩","pin":"hún tun","eng":"wonton","user":"CQ","date":{"$date":"2016-07-19T01:00:00.000Z"},"stat":"Got It"}
+{"_id":"814c","chi":"腌","tra":"醃","pin":"yān","eng":"to marinade or salt","user":"CQ","date":{"$date":"2016-07-19T01:00:00.000Z"},"stat":"Got It"}
+{"_id":"5375","chi":"卵","tra":"","pin":"luǎn","eng":"egg (fish), ovum","user":"CQ","date":{"$date":"2016-07-19T01:00:00.000Z"},"stat":"Got It"}
+{"_id":"68175b50","chi":"栗子","tra":"","pin":"lì zi","eng":"chestnut","user":"CQ","date":{"$date":"2016-07-19T01:00:00.000Z"},"stat":"Got It"}
+{"_id":"7096","chi":"炖","tra":"燉","pin":"dùn","eng":"to stew","user":"CQ","date":{"$date":"2016-07-19T01:00:00.000Z"},"stat":"Got It"}
+{"_id":"82d4","chi":"苔","tra":"","pin":"tái","eng":"moss","user":"CQ","date":{"$date":"2016-07-19T01:00:00.000Z"},"stat":"Got It"}
+{"_id":"82d7","chi":"苗","tra":"","pin":"miáo","eng":"sprout","user":"CQ","date":{"$date":"2016-07-19T01:00:00.000Z"},"stat":"Got It"}
+{"_id":"8364","chi":"荤","tra":"葷","pin":"hūn","eng":"meat or strong-smelling vege.","user":"CQ","date":{"$date":"2016-07-19T01:00:00.000Z"},"stat":"Got It"}
+{"_id":"5fa1","chi":"御","tra":"","pin":"yù","eng":"imperial","user":"CQ","date":{"$date":"2016-07-20T05:12:05.719Z"},"stat":"Got It"}
+{"_id":"517c","chi":"兼","tra":"","pin":"jiān","eng":"additional,concurrent","user":"CQ","date":{"$date":"2016-07-20T05:17:17.250Z"},"stat":"Got It"}
+{"_id":"635f5931","chi":"损失","tra":"損失","pin":"sǔn shī","eng":"loss","user":"CQ","date":{"$date":"2016-07-20T05:20:19.486Z"},"stat":"Got It"}
+{"_id":"660c65fa","chi":"昌旺","tra":"","pin":"chāng wàng","eng":"properous","user":"CQ","date":{"$date":"2016-07-20T05:23:06.366Z"},"stat":"Got It"}
+{"_id":"8fc7591c","chi":"过夜","tra":"過夜","pin":"guò yè","eng":"to spend the night","user":"SQ","date":{"$date":"2016-07-20T05:26:02.284Z"},"stat":"Need Review"}
+{"_id":"99109986","chi":"餐馆","tra":"餐館","pin":"cān guǎn","eng":"restaurant","user":"SQ","date":{"$date":"2016-07-20T05:26:41.800Z"},"stat":"Need Review"}
+{"_id":"996d5e97","chi":"饭店","tra":"飯店","pin":"fàn diàn","eng":"restaurant, hotel","user":"SQ","date":{"$date":"2016-07-20T05:26:57.084Z"},"stat":"Got It"}
+{"_id":"53956240","chi":"厕所","tra":"廁所","pin":"cè suǒ","eng":"toilet, lavatory","user":"SQ","date":{"$date":"2016-07-20T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"94f6884c","chi":"银行","tra":"銀行","pin":"yín háng","eng":"bank","user":"SQ","date":{"$date":"2016-07-20T19:00:00.000Z"},"stat":"Need Review"}
+{"_id":"4e665e97","chi":"书店","tra":"書店","pin":"shū diàn","eng":"bookstore","user":"SQ","date":{"$date":"2016-07-20T05:31:52.836Z"},"stat":"Got It"}
+{"_id":"8ba48bc6","chi":"认识","tra":"認識","pin":"rèn shi","eng":"to know (someone)","user":"SQ","date":{"$date":"2016-07-19T05:00:00.000Z"},"stat":"Got It"}
+{"_id":"75358111","chi":"电脑","tra":"電腦","pin":"diàn nǎo","eng":"computer","user":"SQ","date":{"$date":"2016-07-19T05:00:00.000Z"},"stat":"Need Review"}
+{"_id":"7136540e","chi":"然后","tra":"然後","pin":"rán hòu","eng":"afterward (then)","user":"SQ","date":{"$date":"2016-07-19T05:00:00.000Z"},"stat":"Need Review"}
+{"_id":"6f024eae","chi":"漂亮","tra":"","pin":"piào liang","eng":"pretty","user":"SQ","date":{"$date":"2016-07-19T05:00:00.000Z"},"stat":"Need Review"}
+{"_id":"6c498bed","chi":"汉语","tra":"漢語","pin":"Hànyǔ","eng":"Chinese language (Han)","user":"SQ","date":{"$date":"2016-07-19T05:00:00.000Z"},"stat":"Need Review"}
+{"_id":"6c495b57","chi":"汉字","tra":"漢字","pin":"hànzì","eng":"Chinese characters","user":"SQ","date":{"$date":"2016-07-19T05:00:00.000Z"},"stat":"Need Review"}
+{"_id":"78ca843d","chi":"磊落","tra":"","pin":"lěi luò","eng":"open and honest","user":"CQ","date":{"$date":"2016-07-20T05:00:00.000Z"},"stat":"Got It"}
+{"_id":"72ac","chi":"警犬","tra":"","pin":"jǐng quǎn","eng":"police dog","user":"CQ","date":{"$date":"2016-07-20T05:00:00.000Z"},"stat":"Got It"}
+{"_id":"8bb05f55","chi":"记录","tra":"記錄","pin":"jì lù","eng":"to record","user":"CQ","date":{"$date":"2016-07-20T05:00:00.000Z"},"stat":"Got It"}
+{"_id":"6c476b3e","chi":"汇款","tra":"匯款","pin":"huì kuǎn","eng":"to remit money","user":"CQ","date":{"$date":"2016-07-20T05:00:00.000Z"},"stat":"Got It"}
+{"_id":"4f9b5e945546","chi":"供应商","tra":"供應商","pin":"gōng yìng shāng","eng":"supplier","user":"CQ","date":{"$date":"2016-07-20T05:00:00.000Z"},"stat":"Got It"}
+{"_id":"5b8865e7","chi":"守旧","tra":"守舊","pin":"shǒu jiù","eng":"conservative","user":"CQ","date":{"$date":"2016-07-20T05:00:00.000Z"},"stat":"Got It"}
+{"_id":"847159dc849c","chi":"葱姜蒜","tra":"","pin":"suàn","eng":"onion, ginger, garlic","user":"CQ","date":{"$date":"2016-07-17T19:00:00.000Z"},"stat":"Got It"}
+{"_id":"4eba53c2","chi":"人参","tra":"人參","pin":"rén shēn","eng":"ginseng","user":"CQ","date":{"$date":"2016-07-17T19:00:00.000Z"},"stat":"Got It"}
+{"_id":"8338","chi":"茸","tra":"","pin":"róng","eng":"fluffy, youth","user":"CQ","date":{"$date":"2016-07-17T19:00:00.000Z"},"stat":"Got It"}
+{"_id":"80be810f","chi":"肾脏","tra":"腎臟","pin":"shèn zàng","eng":"kidney","user":"CQ","date":{"$date":"2016-07-17T19:00:00.000Z"},"stat":"Got It"}
+{"_id":"7c9f7c73","chi":"粟米","tra":"","pin":"sù mǐ","eng":"corn","user":"CQ","date":{"$date":"2016-07-17T19:00:00.000Z"},"stat":"Got It"}
+{"_id":"7c7d","chi":"籽","tra":"","pin":"zǐ","eng":"seeds","user":"CQ","date":{"$date":"2016-07-17T19:00:00.000Z"},"stat":"Got It"}
+{"_id":"97ed83dc","chi":"韭菜","tra":"","pin":"jiǔ cài","eng":"Chinese chives","user":"CQ","date":{"$date":"2016-07-17T19:00:00.000Z"},"stat":"Got It"}
+{"_id":"91716cb9","chi":"酱油","tra":"醬油","pin":"jiàng yóu","eng":"soy sauce","user":"CQ","date":{"$date":"2016-07-17T19:00:00.000Z"},"stat":"Got It"}
+{"_id":"8fa3","chi":"辣","tra":"","pin":"là","eng":"spicy","user":"CQ","date":{"$date":"2016-07-17T19:00:00.000Z"},"stat":"Got It"}
+{"_id":"8e447b4b","chi":"蹄筋","tra":"","pin":"tí jīn","eng":"tendon","user":"CQ","date":{"$date":"2016-07-17T19:00:00.000Z"},"stat":"Got It"}
+{"_id":"89e391ca","chi":"解释","tra":"解釋","pin":"jiě shì","eng":"to explain","stat":"Got It","user":"CQ","date":{"$date":"2016-07-21T05:17:16.987Z"}}
+{"_id":"7f168f91","chi":"编辑","tra":"編輯","pin":"biān jí","eng":"to edit, compile","stat":"Got It","user":"CQ","date":{"$date":"2016-07-21T05:18:41.041Z"}}
+{"_id":"589e8865","chi":"增补","tra":"增補","pin":"zēng bǔ","eng":"to supplement","stat":"Got It","user":"CQ","date":{"$date":"2016-07-21T05:19:32.662Z"}}
+{"_id":"63119009","chi":"挑选","tra":"挑選","pin":"tiāo xuǎn","eng":"to select","stat":"Got It","user":"CQ","date":{"$date":"2016-07-21T05:20:34.560Z"}}
+{"_id":"7fe17fe0","chi":"翡翠","tra":"","pin":"fěi cuì","eng":"emerald","stat":"Got It","user":"CQ","date":{"$date":"2016-07-21T05:21:00.990Z"}}
+{"_id":"54c18d28","chi":"品质","tra":"品質","pin":"pǐn zhì","eng":"quality","stat":"Got It","user":"CQ","date":{"$date":"2016-07-21T05:22:16.018Z"}}
+{"_id":"5de58d44","chi":"工资","tra":"工資","pin":"gōng zī","eng":"wage","stat":"Got It","user":"CQ","date":{"$date":"2016-07-21T05:22:35.119Z"}}
+{"_id":"6b645904","chi":"此处","tra":"此處","pin":"cǐ chù","eng":"this place","stat":"Got It","user":"CQ","date":{"$date":"2016-07-21T05:22:57.722Z"}}
+{"_id":"5012","chi":"倒4","tra":"","pin":"dào","eng":"to invert","stat":"Got It","user":"CQ","date":{"$date":"2016-07-21T05:25:29.969Z"}}
+{"_id":"501233","chi":"倒3","tra":"","pin":"dǎo","eng":"to fall, collapse","stat":"Got It","user":"CQ","date":{"$date":"2016-07-21T05:26:32.054Z"}}
+{"_id":"80a0","chi":"肠","tra":"腸","pin":"cháng","eng":"intestines","stat":"Got It","user":"CQ","date":{"$date":"2016-07-16T19:00:00.000Z"}}
+{"_id":"9e339e2f","chi":"鸳鸯","tra":"鴛鴦","pin":"yuān yang","eng":"mandarin ducks, affectionate couple","stat":"Got It","user":"CQ","date":{"$date":"2016-07-16T19:00:00.000Z"}}
+{"_id":"86b5","chi":"蚵","tra":"","pin":"é","eng":"oyster (Taiwanese)","stat":"Got It","user":"CQ","date":{"$date":"2016-07-16T19:00:00.000Z"}}
+{"_id":"86e4870a","chi":"蛤蜊","tra":"","pin":"gé lì","eng":"clam","stat":"Got It","user":"CQ","date":{"$date":"2016-07-16T19:00:00.000Z"}}
+{"_id":"86ac","chi":"蚬","tra":"蜆","pin":"xiǎn","eng":"clam (Cantonese)","stat":"Got It","user":"CQ","date":{"$date":"2016-07-16T19:00:00.000Z"}}
+{"_id":"9c919c7c","chi":"鲑鱼","tra":"鮭魚","pin":"guī yú","eng":"salmon","stat":"Got It","user":"CQ","date":{"$date":"2016-07-16T19:00:00.000Z"}}
+{"_id":"7a3b8349","chi":"稻草","tra":"","pin":"dào cǎo","eng":"rice straw","stat":"Got It","user":"CQ","date":{"$date":"2016-07-16T19:00:00.000Z"}}
+{"_id":"753087ba","chi":"田螺","tra":"","pin":"tián luó","eng":"river snail","stat":"Got It","user":"CQ","date":{"$date":"2016-07-16T19:00:00.000Z"}}
+{"_id":"58f3","chi":"壳","tra":"殼","pin":"ké","eng":"shell, husk","stat":"Need Review","user":"CQ","date":{"$date":"2016-07-16T19:00:00.000Z"}}
+{"_id":"82a67b0b","chi":"芦笋","tra":"蘆筍","pin":"lú sǔn","eng":"asparagus","stat":"Need Review","user":"CQ","date":{"$date":"2016-07-16T19:00:00.000Z"}}
+{"_id":"8c468c49","chi":"豆豉","tra":"","pin":"dòu chǐ","eng":"black bean","stat":"Need Review","user":"CQ","date":{"$date":"2016-07-22T03:16:10.351Z"}}
+{"_id":"62478d1d","chi":"扇贝","tra":"扇貝","pin":"shàn bèi","eng":"scallop","stat":"Need Review","user":"CQ","date":{"$date":"2016-07-22T03:16:35.744Z"}}
+{"_id":"4f4f","chi":"住","tra":"","pin":"zhù","eng":"to live","stat":"Need Review","user":"SQ","date":{"$date":"2016-07-22T04:53:02.767Z"}}
+{"_id":"53174eac","chi":"北京","tra":"","pin":"Běi jīng","eng":"Beijing","stat":"Need Review","user":"SQ","date":{"$date":"2016-07-22T04:54:05.132Z"}}
+{"_id":"62ff","chi":"拿","tra":"","pin":"ná","eng":"to get","stat":"Need Review","user":"SQ","date":{"$date":"2016-07-22T04:57:09.091Z"}}
+{"_id":"7ed9","chi":"给","tra":"給","pin":"gěi","eng":"to give","stat":"Need Review","user":"SQ","date":{"$date":"2016-07-22T04:57:56.854Z"}}
+{"_id":"94f6","chi":"银","tra":"","pin":"yín","eng":"silver","stat":"Need Review","user":"SQ","date":{"$date":"2016-07-20T19:00:00.000Z"}}
+{"_id":"91d1","chi":"金","tra":"","pin":"jīn","eng":"gold","stat":"Need Review","user":"SQ","date":{"$date":"2016-07-22T05:04:24.014Z"}}

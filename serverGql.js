@@ -19,6 +19,7 @@ var wordsType = new graphql.GraphQLObjectType({
     chi: { type: graphql.GraphQLString},
     pin: { type: graphql.GraphQLString},
     eng: { type: graphql.GraphQLString},
+    stat: { type: graphql.GraphQLString},
     rel: { 
       type: new graphql.GraphQLList(wordsType),
       resolve: function (words) {

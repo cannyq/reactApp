@@ -22,4 +22,5 @@
 			Fixed timezone issue in findDocs()
 07/15 Modified GraphQL to take user and date as argument. 
       Added util.js to fix date conversion problem.
-07/18 Added traditional Chinese entry
+07/18 Added traditional Chinese entry, C#4
+07/20 Added stat (Need Review, Got It), C#5
